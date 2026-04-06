@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safrod.app/schemas/app.manifest.schema.json",
+  "title": "Safrod community dApp manifest",
+  "description": "IDE: point app.json at this file via \"$schema\" (see apps/*/json/app.json) or workspace json.schemas. CLI allowed values: npm run listenums, npm run listcategories.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "categoryTheme": {
+      "type": "string",
+      "enum": [
+        "defi",
+        "nft",
+        "gaming",
+        "dao",
+        "tooling",
+        "social",
+        "infrastructure",
+        "wallet",
+        "bridge",
+        "analytics",
+        "education",
+        "other"
+      ],
+      "description": "Predefined listing theme. New themes are added only by maintainers via PR to this schema (enum + release notes)."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "slug",
+    "name",
+    "shortDescription",
+    "description",
+    "url",
+    "status",
+    "chains",
+    "category",
+    "submittedAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 512,
+      "description": "Optional JSON Schema pointer for IDE autocomplete (relative or https URL)."
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "const": 2,
+      "description": "Manifest format version; increment when breaking changes are introduced."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+$",
+      "minLength": 2,
+      "maxLength": 64,
+      "description": "Project folder name: lowercase letters and digits only (no spaces, hyphens, or other symbols). Must match apps/<slug>/."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80,
+      "description": "Display name shown in listings."
+    },
+    "shortDescription": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 160,
+      "description": "One-line summary for cards and previews."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 16,
+      "maxLength": 4000,
+      "description": "Longer description for the detail view."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Primary HTTPS URL for the dApp."
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(-[0-9A-Za-z.-]+)?(\\+[0-9A-Za-z.-]+)?$",
+      "description": "Current app release version (semver: MAJOR.MINOR.PATCH, optional pre-release/build metadata)."
+    },
+    "launchDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Public launch or go-live date (YYYY-MM-DD)."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "concept",
+        "development",
+        "alpha",
+        "beta",
+        "live",
+        "maintenance",
+        "deprecated",
+        "archived"
+      ],
+      "description": "Project lifecycle / état du projet."
+    },
+    "statusNote": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Optional short note clarifying status (e.g. testnet-only)."
+    },
+    "chains": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["safrod-mainnet", "safrod-testnet"]
+      },
+      "description": "Safrod networks this dApp supports."
+    },
+    "category": {
+      "$ref": "#/$defs/categoryTheme",
+      "description": "Exactly one predefined theme for filtering and badges in the app directory."
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "maxLength": 32
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "docs": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "x": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "discord": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "telegram": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "blog": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "team": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "isOpenSource": {
+      "type": "boolean"
+    },
+    "license": {
+      "type": "string",
+      "maxLength": 64,
+      "description": "SPDX id (e.g. MIT) or proprietary."
+    },
+    "languages": {
+      "type": "array",
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}(-[A-Za-z0-9]+)*$",
+        "maxLength": 16
+      },
+      "description": "BCP 47 language tags supported by the product UI."
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "firms": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          }
+        },
+        "completedAt": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "submittedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this listing was first submitted."
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the manifest was last meaningfully updated."
+    }
+  }
+}

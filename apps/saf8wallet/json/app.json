@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "saf8wallet",
+  "name": "8SAF Wallet",
+  "shortDescription": "Wallet natif écosystème Safrochain — annoncé comme à venir sur le site officiel.",
+  "description": "8SAF Wallet est présenté comme partie de la stratégie mobile-first de Safrochain pour les paiements et la custody alignés sur le token SAF. Statut upcoming sur la page des wallets supportés.",
+  "url": "https://www.safrochain.com/",
+  "status": "beta",
+  "chains": [
+    "safrod-mainnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "wallet",
+    "native",
+    "soon"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "links": {
+    "x": "https://twitter.com/safrochain",
+    "docs": "https://docs.safrochain.com"
+  }
+}

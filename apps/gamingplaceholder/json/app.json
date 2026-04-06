@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "gamingplaceholder",
+  "name": "Gaming & missions (Hub)",
+  "shortDescription": "Parcours gamifiés et missions dans le Hub — aligné sur les activités mission / récompenses.",
+  "description": "Le Hub et les parcours type missions reflètent la volonté d'engager les utilisateurs autour du SAF sans promettre un jeu AAA dédié. Cette entrée regroupe la logique learn-to-earn et les défis communautaires plutôt qu'un titre de jeu isolé.",
+  "url": "https://hub.safrochain.com/",
+  "status": "live",
+  "chains": [
+    "safrod-testnet"
+  ],
+  "category": "gaming",
+  "tags": [
+    "hub",
+    "missions",
+    "rewards"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "x": "https://twitter.com/safrochain",
+    "docs": "https://docs.safrochain.com"
+  }
+}

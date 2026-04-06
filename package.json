@@ -1,0 +1,21 @@
+{
+  "name": "safrod-app-list",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build:registry": "node scripts/build-registry.mjs",
+    "validate": "node scripts/validate.mjs",
+    "listcategories": "node scripts/list-enums.mjs categories",
+    "listenums": "node scripts/list-enums.mjs all"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "sharp": "^0.34.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

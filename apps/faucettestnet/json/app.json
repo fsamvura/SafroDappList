@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "faucettestnet",
+  "name": "Token Faucet",
+  "shortDescription": "SAF de test pour payer les frais sur le testnet — étape clé de l'onboarding développeur (lien depuis le site officiel).",
+  "description": "Le faucet distribue des tokens de test pour que les builders et testeurs puissent déployer des contrats et valider des flux sans valeur réelle. Le site safrochain.com le liste comme ressource LIVE pour le testnet ; l'URL exacte peut figurer dans la section Developers ou la documentation.",
+  "url": "https://www.safrochain.com/",
+  "status": "live",
+  "chains": [
+    "safrod-testnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "testnet",
+    "saf",
+    "fees"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "docs": "https://docs.safrochain.com"
+  }
+}

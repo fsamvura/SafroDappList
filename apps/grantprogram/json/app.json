@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "grantprogram",
+  "name": "Grant Program",
+  "shortDescription": "Financement pour les builders et projets écosystème — annoncé comme SOON sur le site.",
+  "description": "Le programme de grants vise à soutenir les équipes qui développent des dApps, de l'infra et des outils autour du SAF et de Safrochain. Il complète la roadmap technique (mainnet, foundation, partenariats).",
+  "url": "https://www.safrochain.com/",
+  "status": "beta",
+  "chains": [
+    "safrod-mainnet"
+  ],
+  "category": "dao",
+  "tags": [
+    "grants",
+    "builders",
+    "ecosystem"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "links": {
+    "x": "https://twitter.com/safrochain"
+  }
+}

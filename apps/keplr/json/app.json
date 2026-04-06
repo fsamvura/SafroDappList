@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "keplr",
+  "name": "Keplr Wallet",
+  "shortDescription": "Wallet Cosmos — pris en charge pour Safrochain testnet sur le site officiel.",
+  "description": "Keplr est une extension et application mobile populaire pour les chaînes Cosmos. Safrochain liste Keplr comme wallet compatible (testnet live, mainnet à venir), ce qui en fait une passerelle pour détenir et utiliser SAF dans l'écosystème inter-chaînes.",
+  "url": "https://www.keplr.app/",
+  "status": "live",
+  "chains": [
+    "safrod-mainnet",
+    "safrod-testnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "wallet",
+    "cosmos",
+    "extension"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "x": "https://twitter.com/keplrwallet",
+    "docs": "https://docs.keplr.app"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "safrimba",
+  "name": "Safrimba",
+  "shortDescription": "Tontines numériques on-chain via CosmWasm — épargne rotative transparente.",
+  "description": "Safrimba illustre l'usage de CosmWasm sur Safrochain : des groupes d'épargne rotative avec règles de contribution et de distribution automatisées. Le site officiel en parle dans la FAQ et la roadmap (beta), comme produit métier pour l'inclusion financière.",
+  "url": "https://www.safrochain.com/",
+  "status": "beta",
+  "chains": [
+    "safrod-mainnet"
+  ],
+  "category": "defi",
+  "tags": [
+    "cosmwasm",
+    "savings",
+    "tontine",
+    "featured"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "version": "0.1.0-beta.1",
+  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "links": {
+    "x": "https://twitter.com/safrochain",
+    "docs": "https://docs.safrochain.com"
+  }
+}

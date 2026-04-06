@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement to tooling, schema, or contributor workflow.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or gap
+      description: What is hard or missing today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like to see changed?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Licensing
+      options:
+        - label: I understand new code or docs would be under the same [MIT License](https://github.com/SAFROCHAIN/SafrodAppList/blob/main/LICENSE) unless agreed otherwise
+          required: true

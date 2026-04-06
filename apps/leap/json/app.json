@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "leap",
+  "name": "Leap Wallet",
+  "shortDescription": "Wallet Cosmos — listé sur safrochain.com comme support à venir.",
+  "description": "Leap propose une expérience mobile et navigateur pour l'écosystème Cosmos. La page Supported Wallets du site Safrochain indique Leap comme option à venir, dans la continuité de l'interopérabilité IBC et de l'usage du SAF.",
+  "url": "https://www.leapwallet.io/",
+  "status": "beta",
+  "chains": [
+    "safrod-mainnet",
+    "safrod-testnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "wallet",
+    "mobile",
+    "soon"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "links": {
+    "x": "https://twitter.com/leap_wallet"
+  }
+}

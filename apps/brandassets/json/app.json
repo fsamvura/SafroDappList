@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "brandassets",
+  "name": "Brand assets",
+  "shortDescription": "Logos, couleurs et guidelines officiels — ressource Brand Assets sur safrochain.com.",
+  "description": "La charte et les assets de marque permettent aux partenaires et médias d'afficher Safrochain et le SAF de façon cohérente. Accès via la section Resources du site officiel.",
+  "url": "https://www.safrochain.com/",
+  "status": "live",
+  "chains": [
+    "safrod-mainnet"
+  ],
+  "category": "nft",
+  "tags": [
+    "brand",
+    "logos",
+    "guidelines"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "x": "https://twitter.com/safrochain",
+    "docs": "https://www.safrochain.com/"
+  }
+}

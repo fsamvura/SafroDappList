@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["apps/*/json/app.json"],
+      "url": "./schemas/app.manifest.schema.json"
+    }
+  ]
+}

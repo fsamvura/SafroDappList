@@ -1,0 +1,70 @@
+name: Add or update a dApp listing
+description: Propose a new community listing or a change before you open a PR (optional).
+title: "[Listing] "
+labels: ["listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Prefer a pull request** following [CONTRIBUTING.md](https://github.com/SAFROCHAIN/SafrodAppList/blob/main/CONTRIBUTING.md). Use this template only if you want to discuss before submitting.
+
+        You **must** run `npm run validate` locally before any listing PR; CI will run the same checks.
+
+  - type: input
+    id: slug
+    attributes:
+      label: Proposed folder / slug
+      description: Lowercase letters and digits only, 2–64 characters (e.g. `mydapp`).
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Primary HTTPS URL
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short description
+      description: One or two sentences (will become shortDescription in the manifest).
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category (must match schema)
+      options:
+        - defi
+        - nft
+        - gaming
+        - dao
+        - tooling
+        - social
+        - infrastructure
+        - wallet
+        - bridge
+        - analytics
+        - education
+        - other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Before a maintainer can merge a PR
+      options:
+        - label: I will provide a 512×512 PNG at `apps/<slug>/img/logo.png`
+          required: false
+        - label: I agree listing data and logo I submit may be used under the repo MIT License
+          required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Links, chains, status, or questions.

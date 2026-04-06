@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "githuborg",
+  "name": "GitHub — Safrochain Org",
+  "shortDescription": "Organisation open-source : nœuds, outils et contributions communautaires autour du protocole.",
+  "description": "Le dépôt GitHub de l'organisation Safrochain concentre les projets publics liés à la chaîne et à l'outillage. C'est le point d'entrée pour les PR, les releases et la transparence du code côté infrastructure.",
+  "url": "https://github.com/Safrochain-Org",
+  "status": "live",
+  "chains": [
+    "safrod-mainnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "open-source",
+    "code",
+    "repos"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "github": "https://github.com/Safrochain-Org"
+  }
+}

@@ -1,0 +1,41 @@
+name: Bug — validation, schema, or CI
+description: Something failed in npm run validate, the schema, or GitHub Actions.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please run **`npm ci`** then **`npm run validate`** and include the full output below.
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, or link to a failing PR.
+    validations:
+      required: true
+
+  - type: textarea
+    id: validate_output
+    attributes:
+      label: Output of `npm run validate`
+      description: Paste the complete terminal output.
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: node
+    attributes:
+      label: Node.js version (`node -v`)
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: e.g. macOS 15, Ubuntu 22.04
+    validations:
+      required: false

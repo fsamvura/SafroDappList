@@ -1,0 +1,479 @@
+{
+  "apps": [
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "nft",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "La charte et les assets de marque permettent aux partenaires et médias d'afficher Safrochain et le SAF de façon cohérente. Accès via la section Resources du site officiel.",
+      "links": {
+        "docs": "https://www.safrochain.com/",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/brandassets/img/logo.png",
+      "manifestPath": "apps/brandassets/json/app.json",
+      "name": "Brand assets",
+      "schemaVersion": 2,
+      "shortDescription": "Logos, couleurs et guidelines officiels — ressource Brand Assets sur safrochain.com.",
+      "slug": "brandassets",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "brand",
+        "logos",
+        "guidelines"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet",
+        "safrod-testnet"
+      ],
+      "description": "Cosmostation est un acteur historique des wallets et explorateurs Cosmos. Safrochain prévoit son intégration pour élargir les options de custody et de staking une fois les intégrations réseau finalisées.",
+      "links": {
+        "github": "https://github.com/cosmostation"
+      },
+      "logoPath": "apps/cosmostation/img/logo.png",
+      "manifestPath": "apps/cosmostation/json/app.json",
+      "name": "Cosmostation",
+      "schemaVersion": 2,
+      "shortDescription": "Wallet & suite Cosmos — mentionné comme support à venir sur le site Safrochain.",
+      "slug": "cosmostation",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "wallet",
+        "cosmos",
+        "soon"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://cosmostation.io/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "La documentation officielle couvre l'installation des outils, les endpoints RPC/REST, les modules Cosmos SDK pertinents et les bonnes pratiques pour construire sur Safrochain. Elle complète le site marketing et le faucet pour l'onboarding testnet.",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "github": "https://github.com/Safrochain-Org"
+      },
+      "logoPath": "apps/docssafrochain/img/logo.png",
+      "manifestPath": "apps/docssafrochain/json/app.json",
+      "name": "Documentation",
+      "schemaVersion": 2,
+      "shortDescription": "Référence développeur : guides, API et intégration des wallets et du réseau.",
+      "slug": "docssafrochain",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "developers",
+        "api",
+        "guides",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://docs.safrochain.com"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-testnet"
+      ],
+      "description": "L'explorateur testnet permet de suivre l'activité on-chain en temps réel : comptes, délégations, transferts SAF et messages Cosmos SDK. Il est l'outil de référence pour déboguer les intégrations avant mainnet (explorer.testnet.safrochain.com).",
+      "links": {
+        "docs": "https://docs.safrochain.com"
+      },
+      "logoPath": "apps/explorertestnet/img/logo.png",
+      "manifestPath": "apps/explorertestnet/json/app.json",
+      "name": "Testnet Explorer",
+      "schemaVersion": 2,
+      "shortDescription": "Explorateur de blocs : transactions, validateurs, hauteur de chaîne et liens vers les txs.",
+      "slug": "explorertestnet",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "explorer",
+        "blocks",
+        "validators",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://explorer.testnet.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-testnet"
+      ],
+      "description": "Le faucet distribue des tokens de test pour que les builders et testeurs puissent déployer des contrats et valider des flux sans valeur réelle. Le site safrochain.com le liste comme ressource LIVE pour le testnet ; l'URL exacte peut figurer dans la section Developers ou la documentation.",
+      "links": {
+        "docs": "https://docs.safrochain.com"
+      },
+      "logoPath": "apps/faucettestnet/img/logo.png",
+      "manifestPath": "apps/faucettestnet/json/app.json",
+      "name": "Token Faucet",
+      "schemaVersion": 2,
+      "shortDescription": "SAF de test pour payer les frais sur le testnet — étape clé de l'onboarding développeur (lien depuis le site officiel).",
+      "slug": "faucettestnet",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "testnet",
+        "saf",
+        "fees"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "gaming",
+      "chains": [
+        "safrod-testnet"
+      ],
+      "description": "Le Hub et les parcours type missions reflètent la volonté d'engager les utilisateurs autour du SAF sans promettre un jeu AAA dédié. Cette entrée regroupe la logique learn-to-earn et les défis communautaires plutôt qu'un titre de jeu isolé.",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/gamingplaceholder/img/logo.png",
+      "manifestPath": "apps/gamingplaceholder/json/app.json",
+      "name": "Gaming & missions (Hub)",
+      "schemaVersion": 2,
+      "shortDescription": "Parcours gamifiés et missions dans le Hub — aligné sur les activités mission / récompenses.",
+      "slug": "gamingplaceholder",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "hub",
+        "missions",
+        "rewards"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://hub.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "Le dépôt GitHub de l'organisation Safrochain concentre les projets publics liés à la chaîne et à l'outillage. C'est le point d'entrée pour les PR, les releases et la transparence du code côté infrastructure.",
+      "links": {
+        "github": "https://github.com/Safrochain-Org"
+      },
+      "logoPath": "apps/githuborg/img/logo.png",
+      "manifestPath": "apps/githuborg/json/app.json",
+      "name": "GitHub — Safrochain Org",
+      "schemaVersion": 2,
+      "shortDescription": "Organisation open-source : nœuds, outils et contributions communautaires autour du protocole.",
+      "slug": "githuborg",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "open-source",
+        "code",
+        "repos"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://github.com/Safrochain-Org"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "dao",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "Le programme de grants vise à soutenir les équipes qui développent des dApps, de l'infra et des outils autour du SAF et de Safrochain. Il complète la roadmap technique (mainnet, foundation, partenariats).",
+      "links": {
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/grantprogram/img/logo.png",
+      "manifestPath": "apps/grantprogram/json/app.json",
+      "name": "Grant Program",
+      "schemaVersion": 2,
+      "shortDescription": "Financement pour les builders et projets écosystème — annoncé comme SOON sur le site.",
+      "slug": "grantprogram",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "grants",
+        "builders",
+        "ecosystem"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet",
+        "safrod-testnet"
+      ],
+      "description": "Keplr est une extension et application mobile populaire pour les chaînes Cosmos. Safrochain liste Keplr comme wallet compatible (testnet live, mainnet à venir), ce qui en fait une passerelle pour détenir et utiliser SAF dans l'écosystème inter-chaînes.",
+      "links": {
+        "docs": "https://docs.keplr.app",
+        "x": "https://twitter.com/keplrwallet"
+      },
+      "logoPath": "apps/keplr/img/logo.png",
+      "manifestPath": "apps/keplr/json/app.json",
+      "name": "Keplr Wallet",
+      "schemaVersion": 2,
+      "shortDescription": "Wallet Cosmos — pris en charge pour Safrochain testnet sur le site officiel.",
+      "slug": "keplr",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "wallet",
+        "cosmos",
+        "extension"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.keplr.app/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet",
+        "safrod-testnet"
+      ],
+      "description": "Leap propose une expérience mobile et navigateur pour l'écosystème Cosmos. La page Supported Wallets du site Safrochain indique Leap comme option à venir, dans la continuité de l'interopérabilité IBC et de l'usage du SAF.",
+      "links": {
+        "x": "https://twitter.com/leap_wallet"
+      },
+      "logoPath": "apps/leap/img/logo.png",
+      "manifestPath": "apps/leap/json/app.json",
+      "name": "Leap Wallet",
+      "schemaVersion": 2,
+      "shortDescription": "Wallet Cosmos — listé sur safrochain.com comme support à venir.",
+      "slug": "leap",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "wallet",
+        "mobile",
+        "soon"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.leapwallet.io/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "analytics",
+      "chains": [
+        "safrod-mainnet",
+        "safrod-testnet"
+      ],
+      "description": "Mintscan fournit une vue agrégée des chaînes Cosmos, utile pour suivre les comptes, les proposals et l'activité IBC. Safrochain le cite comme explorateur à surveiller aux côtés d'autres explorateurs communautaires.",
+      "links": {
+        "x": "https://twitter.com/mintscanio"
+      },
+      "logoPath": "apps/mintscan/img/logo.png",
+      "manifestPath": "apps/mintscan/json/app.json",
+      "name": "Mintscan",
+      "schemaVersion": 2,
+      "shortDescription": "Explorateur inter-chaînes — listé parmi les explorateurs de l'écosystème Cosmos.",
+      "slug": "mintscan",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "explorer",
+        "ibc",
+        "analytics"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.mintscan.io/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "bridge",
+      "chains": [
+        "safrod-mainnet",
+        "safrod-testnet"
+      ],
+      "description": "Osmosis est un AMM majeur de l'écosystème Cosmos. La roadmap Safrochain prévoit une intégration (pools, IBC) pour connecter la liquidité SAF au reste de l'interchain.",
+      "links": {
+        "docs": "https://docs.osmosis.zone",
+        "x": "https://twitter.com/osmosiszone"
+      },
+      "logoPath": "apps/osmosisibc/img/logo.png",
+      "manifestPath": "apps/osmosisibc/json/app.json",
+      "name": "Osmosis (IBC)",
+      "schemaVersion": 2,
+      "shortDescription": "Liquidité inter-chaînes et pools — intégration Osmosis annoncée sur la roadmap Safrochain.",
+      "slug": "osmosisibc",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "ibc",
+        "amm",
+        "liquidity",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://osmosis.zone/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "8SAF Wallet est présenté comme partie de la stratégie mobile-first de Safrochain pour les paiements et la custody alignés sur le token SAF. Statut upcoming sur la page des wallets supportés.",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/saf8wallet/img/logo.png",
+      "manifestPath": "apps/saf8wallet/json/app.json",
+      "name": "8SAF Wallet",
+      "schemaVersion": 2,
+      "shortDescription": "Wallet natif écosystème Safrochain — annoncé comme à venir sur le site officiel.",
+      "slug": "saf8wallet",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "wallet",
+        "native",
+        "soon"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "defi",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "Safrimba illustre l'usage de CosmWasm sur Safrochain : des groupes d'épargne rotative avec règles de contribution et de distribution automatisées. Le site officiel en parle dans la FAQ et la roadmap (beta), comme produit métier pour l'inclusion financière.",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/safrimba/img/logo.png",
+      "manifestPath": "apps/safrimba/json/app.json",
+      "name": "Safrimba",
+      "schemaVersion": 2,
+      "shortDescription": "Tontines numériques on-chain via CosmWasm — épargne rotative transparente.",
+      "slug": "safrimba",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "cosmwasm",
+        "savings",
+        "tontine",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/",
+      "version": "0.1.0-beta.1"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "Le site safrochain.com présente la couche Cosmos SDK, l'interopérabilité IBC, les frais sub-cent et les cas d'usage (remises, micro-paiements, épargne). Vous y trouvez la roadmap (mainnet visé Q3 2026), les ressources (whitepaper, brand assets) et les accès développeurs (documentation, explorer, faucet).",
+      "launchDate": "2024-01-01",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/safrochaincom/img/logo.png",
+      "manifestPath": "apps/safrochaincom/json/app.json",
+      "name": "Safrochain.com",
+      "schemaVersion": 2,
+      "shortDescription": "Site officiel : vision Africa-first, tokenomics, roadmap, FAQ, statut réseau et liens vers l'écosystème.",
+      "slug": "safrochaincom",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "official",
+        "roadmap",
+        "token-saf",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://www.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "infrastructure",
+      "chains": [
+        "safrod-testnet"
+      ],
+      "description": "Le Hub Safrochain regroupe l'accès aux services orientés utilisateurs et développeurs autour du token SAF et du réseau. La roadmap publique cite le lancement du hub (hub.safrochain.com) dans la phase testnet aux côtés des explorateurs et de la documentation.",
+      "launchDate": "2025-01-01",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/safrohub/img/logo.png",
+      "manifestPath": "apps/safrohub/json/app.json",
+      "name": "Safrochain Hub",
+      "schemaVersion": 2,
+      "shortDescription": "Portail écosystème pour interagir avec la chaîne, les missions et les applications — hub cité sur la roadmap testnet.",
+      "slug": "safrohub",
+      "status": "live",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "hub",
+        "ecosystem",
+        "saf",
+        "featured"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://hub.safrochain.com/"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "social",
+      "chains": [
+        "safrod-mainnet"
+      ],
+      "description": "La vision SafroID couvre pseudo, avatar, bio et liens sociaux vérifiables, avec intégration prévue aux applications Safrochain. Elle correspond au besoin d'identité portable évoqué sur le site et dans les docs hub, distinct d'une simple adresse wallet.",
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/safroidvision/img/logo.png",
+      "manifestPath": "apps/safroidvision/json/app.json",
+      "name": "SafroID (vision)",
+      "schemaVersion": 2,
+      "shortDescription": "Identité décentralisée (DID) et profil unifié — décrite dans la documentation produit de l'écosystème.",
+      "slug": "safroidvision",
+      "status": "beta",
+      "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "did",
+        "profile",
+        "vision"
+      ],
+      "updatedAt": "2026-04-06",
+      "url": "https://docs.safrochain.com"
+    }
+  ],
+  "generatedAt": "2026-04-06",
+  "registryVersion": 1
+}

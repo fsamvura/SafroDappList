@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "mintscan",
+  "name": "Mintscan",
+  "shortDescription": "Explorateur inter-chaînes — listé parmi les explorateurs de l'écosystème Cosmos.",
+  "description": "Mintscan fournit une vue agrégée des chaînes Cosmos, utile pour suivre les comptes, les proposals et l'activité IBC. Safrochain le cite comme explorateur à surveiller aux côtés d'autres explorateurs communautaires.",
+  "url": "https://www.mintscan.io/",
+  "status": "live",
+  "chains": [
+    "safrod-mainnet",
+    "safrod-testnet"
+  ],
+  "category": "analytics",
+  "tags": [
+    "explorer",
+    "ibc",
+    "analytics"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "links": {
+    "x": "https://twitter.com/mintscanio"
+  }
+}

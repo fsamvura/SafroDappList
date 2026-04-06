@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "cosmostation",
+  "name": "Cosmostation",
+  "shortDescription": "Wallet & suite Cosmos — mentionné comme support à venir sur le site Safrochain.",
+  "description": "Cosmostation est un acteur historique des wallets et explorateurs Cosmos. Safrochain prévoit son intégration pour élargir les options de custody et de staking une fois les intégrations réseau finalisées.",
+  "url": "https://cosmostation.io/",
+  "status": "beta",
+  "chains": [
+    "safrod-mainnet",
+    "safrod-testnet"
+  ],
+  "category": "infrastructure",
+  "tags": [
+    "wallet",
+    "cosmos",
+    "soon"
+  ],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "links": {
+    "github": "https://github.com/cosmostation"
+  }
+}
