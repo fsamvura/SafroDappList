@@ -5,7 +5,7 @@
   "name": "Token Faucet",
   "shortDescription": "Free test SAF to cover fees on the testnet — a key step in the developer onboarding flow.",
   "description": "The faucet distributes test tokens so builders and testers can deploy contracts and validate flows without real value at stake. Safrochain.com lists it as a live testnet resource; the exact URL is available in the Developers section or the documentation.",
-  "url": "https://www.safrochain.com/",
+  "url": "https://faucet.safrochain.com/",
   "status": "live",
   "chains": ["safrochain-testnet"],
   "category": "infrastructure",
