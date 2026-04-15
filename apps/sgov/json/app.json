@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "sgov",
+  "name": "SGOV",
+  "shortDescription": "Governance platform for the Safrochain ecosystem — proposals, voting, and community decision-making.",
+  "description": "SGOV is the dedicated governance platform for Safrochain, enabling SAF token holders to submit proposals, vote on-chain, and participate in the direction of the network and ecosystem. Designed to bring transparent, community-driven decision-making to every aspect of the protocol.",
+  "url": "https://www.safrochain.com/",
+  "status": "concept",
+  "statusNote": "To be determined — governance platform under design.",
+  "chains": ["safrochain-mainnet"],
+  "category": "governance",
+  "tags": ["governance", "voting", "proposals", "community"],
+  "submittedAt": "2026-04-15",
+  "updatedAt": "2026-04-15",
+  "links": {
+    "x": "https://twitter.com/safrochain",
+    "docs": "https://docs.safrochain.com"
+  }
+}

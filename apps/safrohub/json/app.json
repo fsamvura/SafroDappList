@@ -3,22 +3,15 @@
   "schemaVersion": 2,
   "slug": "safrohub",
   "name": "Safrochain Hub",
-  "shortDescription": "Portail écosystème pour interagir avec la chaîne, les missions et les applications — hub cité sur la roadmap testnet.",
-  "description": "Le Hub Safrochain regroupe l'accès aux services orientés utilisateurs et développeurs autour du token SAF et du réseau. La roadmap publique cite le lancement du hub (hub.safrochain.com) dans la phase testnet aux côtés des explorateurs et de la documentation.",
+  "shortDescription": "Ecosystem portal for interacting with the chain, missions, and community applications — featured on the testnet roadmap.",
+  "description": "The Safrochain Hub centralizes access to user- and developer-oriented services built around the SAF token and network. The public roadmap lists the hub launch (hub.safrochain.com) in the testnet phase alongside explorers and documentation.",
   "url": "https://hub.safrochain.com/",
   "status": "live",
-  "chains": [
-    "safrochain-testnet"
-  ],
+  "chains": ["safrochain-testnet"],
   "category": "infrastructure",
-  "tags": [
-    "hub",
-    "ecosystem",
-    "saf",
-    "featured"
-  ],
+  "tags": ["hub", "ecosystem", "saf", "featured"],
   "submittedAt": "2026-04-06",
-  "updatedAt": "2026-04-06",
+  "updatedAt": "2026-04-15",
   "launchDate": "2025-01-01",
   "links": {
     "x": "https://twitter.com/safrochain",

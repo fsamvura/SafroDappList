@@ -3,22 +3,16 @@
   "schemaVersion": 2,
   "slug": "saf8wallet",
   "name": "8SAF Wallet",
-  "shortDescription": "Wallet natif écosystème Safrochain — annoncé comme à venir sur le site officiel.",
-  "description": "8SAF Wallet est présenté comme partie de la stratégie mobile-first de Safrochain pour les paiements et la custody alignés sur le token SAF. Statut upcoming sur la page des wallets supportés.",
+  "shortDescription": "Native Safrochain ecosystem wallet — announced as upcoming on the official website.",
+  "description": "8SAF Wallet is positioned as part of Safrochain's mobile-first strategy for payments and custody aligned with the SAF token. Currently listed as upcoming on the Supported Wallets page.",
   "url": "https://www.safrochain.com/",
   "status": "beta",
-  "chains": [
-    "safrochain-mainnet"
-  ],
+  "chains": ["safrochain-mainnet"],
   "category": "infrastructure",
-  "tags": [
-    "wallet",
-    "native",
-    "soon"
-  ],
+  "tags": ["wallet", "native", "soon"],
   "submittedAt": "2026-04-06",
-  "updatedAt": "2026-04-06",
-  "statusNote": "Listed as upcoming or roadmap on official sources; not live yet.",
+  "updatedAt": "2026-04-15",
+  "statusNote": "Listed as upcoming on official sources; not live yet.",
   "links": {
     "x": "https://twitter.com/safrochain",
     "docs": "https://docs.safrochain.com"

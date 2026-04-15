@@ -20,6 +20,7 @@
         "bridge",
         "analytics",
         "education",
+        "governance",
         "other"
       ],
       "description": "Predefined listing theme. New themes are added only by maintainers via PR to this schema (enum + release notes)."

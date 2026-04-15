@@ -49,6 +49,7 @@ body:
         - bridge
         - analytics
         - education
+        - governance
         - other
     validations:
       required: true
