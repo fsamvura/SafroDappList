@@ -1,6 +1,6 @@
 # Contributing to SafrodAppList
 
-Thank you for helping grow the Safrod community dApp directory.
+Thank you for helping grow the Safrochain community dApp directory.
 
 ## License
 

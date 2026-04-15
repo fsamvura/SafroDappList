@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://safrod.app/schemas/app.manifest.schema.json",
-  "title": "Safrod community dApp manifest",
+  "$id": "https://safrochain.app/schemas/app.manifest.schema.json",
+  "title": "Safrochain community dApp manifest",
   "description": "IDE: point app.json at this file via \"$schema\" (see apps/*/json/app.json) or workspace json.schemas. CLI allowed values: npm run listenums, npm run listcategories.",
   "type": "object",
   "additionalProperties": false,
@@ -118,9 +118,9 @@
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "enum": ["safrod-mainnet", "safrod-testnet"]
+        "enum": ["safrochain-mainnet", "safrochain-testnet"]
       },
-      "description": "Safrod networks this dApp supports."
+      "description": "Safrochain networks this dApp supports."
     },
     "category": {
       "$ref": "#/$defs/categoryTheme",

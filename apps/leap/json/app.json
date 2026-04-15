@@ -8,8 +8,8 @@
   "url": "https://www.leapwallet.io/",
   "status": "beta",
   "chains": [
-    "safrod-mainnet",
-    "safrod-testnet"
+    "safrochain-mainnet",
+    "safrochain-testnet"
   ],
   "category": "infrastructure",
   "tags": [

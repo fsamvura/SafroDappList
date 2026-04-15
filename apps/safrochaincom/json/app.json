@@ -8,7 +8,7 @@
   "url": "https://www.safrochain.com/",
   "status": "live",
   "chains": [
-    "safrod-mainnet"
+    "safrochain-mainnet"
   ],
   "category": "infrastructure",
   "tags": [

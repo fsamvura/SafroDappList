@@ -8,7 +8,7 @@
   "url": "https://www.safrochain.com/",
   "status": "beta",
   "chains": [
-    "safrod-mainnet"
+    "safrochain-mainnet"
   ],
   "category": "defi",
   "tags": [

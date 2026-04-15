@@ -8,8 +8,8 @@
   "url": "https://www.mintscan.io/",
   "status": "live",
   "chains": [
-    "safrod-mainnet",
-    "safrod-testnet"
+    "safrochain-mainnet",
+    "safrochain-testnet"
   ],
   "category": "analytics",
   "tags": [

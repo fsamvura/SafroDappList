@@ -8,8 +8,8 @@
   "url": "https://www.keplr.app/",
   "status": "live",
   "chains": [
-    "safrod-mainnet",
-    "safrod-testnet"
+    "safrochain-mainnet",
+    "safrochain-testnet"
   ],
   "category": "infrastructure",
   "tags": [

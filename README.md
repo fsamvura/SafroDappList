@@ -1,6 +1,6 @@
 # SafrodAppList
 
-Community dApp directory for the Safrod ecosystem. Each listing lives in this repo as JSON + a logo; [registry.json](registry.json) aggregates every entry for apps and websites to consume.
+Community dApp directory for the Safrochain ecosystem. Each listing lives in this repo as JSON + a logo; [registry.json](registry.json) aggregates every entry for apps and websites to consume.
 
 ## Using the data
 
