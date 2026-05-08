@@ -19,9 +19,27 @@ import {
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const APPS_DIR = join(ROOT, "apps");
+const FEATURED_PATH = join(ROOT, "featured.json");
 
 const REGISTRY_VERSION = 1;
 const EMPTY_GENERATED_AT = "1970-01-01";
+
+/**
+ * @returns {string[]}
+ */
+function loadFeaturedSlugs() {
+  try {
+    if (!existsSync(FEATURED_PATH)) return [];
+    const raw = readFileSync(FEATURED_PATH, "utf8");
+    const parsed = JSON.parse(raw);
+    if (parsed && Array.isArray(parsed.slugs)) {
+      return parsed.slugs;
+    }
+    return [];
+  } catch {
+    return [];
+  }
+}
 
 /**
  * @returns {string[]}
@@ -95,12 +113,19 @@ export function buildRegistryObject() {
   }
 
   const generatedAt = maxUpdated || EMPTY_GENERATED_AT;
+  const featuredSlugs = loadFeaturedSlugs();
 
-  return {
+  const result = {
     registryVersion: REGISTRY_VERSION,
     generatedAt,
     apps,
   };
+
+  if (featuredSlugs.length > 0) {
+    result.featuredSlugs = featuredSlugs;
+  }
+
+  return result;
 }
 
 export function buildRegistryString() {

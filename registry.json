@@ -135,7 +135,7 @@
         "fees"
       ],
       "updatedAt": "2026-04-15",
-      "url": "https://www.safrochain.com/"
+      "url": "https://faucet.safrochain.com/"
     },
     {
       "$schema": "../../../schemas/app.manifest.schema.json",
@@ -533,6 +533,12 @@
       "updatedAt": "2026-04-15",
       "url": "https://www.safrochain.com/"
     }
+  ],
+  "featuredSlugs": [
+    "safrochaincom",
+    "safrimba",
+    "sgov",
+    "keplr"
   ],
   "generatedAt": "2026-04-15",
   "registryVersion": 1
