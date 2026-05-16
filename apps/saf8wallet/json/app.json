@@ -5,7 +5,7 @@
   "name": "8SAF Wallet",
   "shortDescription": "Native Safrochain ecosystem wallet — announced as upcoming on the official website.",
   "description": "8SAF Wallet is positioned as part of Safrochain's mobile-first strategy for payments and custody aligned with the SAF token. Currently listed as upcoming on the Supported Wallets page.",
-  "url": "https://www.safrochain.com/",
+  "url": "https://eightsaf.io/",
   "status": "beta",
   "chains": ["safrochain-mainnet"],
   "category": "wallet",
