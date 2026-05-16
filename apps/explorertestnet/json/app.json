@@ -8,8 +8,8 @@
   "url": "https://explorer.testnet.safrochain.com/",
   "status": "live",
   "chains": ["safrochain-testnet"],
-  "category": "infrastructure",
-  "tags": ["explorer", "blocks", "validators", "featured"],
+  "category": "analytics",
+  "tags": ["explorer", "blocks", "validators"],
   "submittedAt": "2026-04-06",
   "updatedAt": "2026-04-15",
   "links": {
