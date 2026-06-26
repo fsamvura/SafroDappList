@@ -85,6 +85,43 @@
     },
     {
       "$schema": "../../../schemas/app.manifest.schema.json",
+      "category": "wallet",
+      "chains": [
+        "safrochain-testnet",
+        "safrochain-mainnet"
+      ],
+      "description": "EightSaf Wallet is a non-custodial browser extension for Safrochain (Cosmos SDK). Private keys and your 24-word recovery phrase are generated and stored only on your device, encrypted with a spending password. The extension does not operate servers, user accounts, or analytics.\n\nUsers can create or restore a wallet, send and receive SAF on Safrochain Testnet, review transaction history, and connect to websites through the EightSaf provider (window.eightsaf) with explicit approval for each connection and signature. A Keplr-compatible API helps Cosmos dApps work without modification.\n\nInstall from the Chrome Web Store via eightsaf.io. A Firefox build is packaged separately for AMO submission. Mainnet support is prepared in the wallet and will align with Safrochain mainnet launch.",
+      "languages": [
+        "en"
+      ],
+      "links": {
+        "docs": "https://docs.safrochain.com",
+        "github": "https://github.com/Eightblockchain/eightsaf",
+        "website": "https://eightsaf.io/",
+        "x": "https://twitter.com/safrochain"
+      },
+      "logoPath": "apps/eightsaf/img/logo.png",
+      "manifestPath": "apps/eightsaf/json/app.json",
+      "name": "EightSaf Wallet",
+      "schemaVersion": 2,
+      "shortDescription": "Non-custodial Chrome extension for Safrochain — send SAF, connect to dApps, and manage your keys locally.",
+      "slug": "eightsaf",
+      "status": "live",
+      "statusNote": "Available on Chrome Web Store. Safrochain Testnet supported; mainnet when the network launches.",
+      "submittedAt": "2026-04-06",
+      "tags": [
+        "wallet",
+        "extension",
+        "browser",
+        "cosmos",
+        "native"
+      ],
+      "updatedAt": "2026-06-11",
+      "url": "https://eightsaf.io/",
+      "version": "1.6.1"
+    },
+    {
+      "$schema": "../../../schemas/app.manifest.schema.json",
       "category": "analytics",
       "chains": [
         "safrochain-testnet"
@@ -361,41 +398,13 @@
     },
     {
       "$schema": "../../../schemas/app.manifest.schema.json",
-      "category": "wallet",
-      "chains": [
-        "safrochain-mainnet"
-      ],
-      "description": "8SAF Wallet is positioned as part of Safrochain's mobile-first strategy for payments and custody aligned with the SAF token. Currently listed as upcoming on the Supported Wallets page.",
-      "links": {
-        "docs": "https://docs.safrochain.com",
-        "x": "https://twitter.com/safrochain"
-      },
-      "logoPath": "apps/saf8wallet/img/logo.png",
-      "manifestPath": "apps/saf8wallet/json/app.json",
-      "name": "8SAF Wallet",
-      "schemaVersion": 2,
-      "shortDescription": "Native Safrochain ecosystem wallet — announced as upcoming on the official website.",
-      "slug": "saf8wallet",
-      "status": "beta",
-      "statusNote": "Listed as upcoming on official sources; not live yet.",
-      "submittedAt": "2026-04-06",
-      "tags": [
-        "wallet",
-        "native",
-        "soon"
-      ],
-      "updatedAt": "2026-04-15",
-      "url": "https://www.safrochain.com/"
-    },
-    {
-      "$schema": "../../../schemas/app.manifest.schema.json",
       "category": "defi",
       "chains": [
         "safrochain-mainnet"
       ],
       "description": "Safrimba demonstrates CosmWasm usage on Safrochain: rotating savings groups with automated contribution and distribution rules. The official website highlights it in the FAQ and roadmap (beta) as a flagship product for financial inclusion.",
       "links": {
-        "docs": "https://docs.safrochain.com",
+        "docs": "https://safrimba.safrochain.com/docs",
         "x": "https://twitter.com/safrochain"
       },
       "logoPath": "apps/safrimba/img/logo.png",
@@ -414,7 +423,7 @@
         "featured"
       ],
       "updatedAt": "2026-04-15",
-      "url": "https://www.safrochain.com/",
+      "url": "https://hub.safrochain.com/",
       "version": "0.1.0-beta.1"
     },
     {
@@ -589,6 +598,6 @@
     "safrohub",
     "faucettestnet"
   ],
-  "generatedAt": "2026-06-09",
+  "generatedAt": "2026-06-11",
   "registryVersion": 1
 }

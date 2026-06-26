@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/app.manifest.schema.json",
+  "schemaVersion": 2,
+  "slug": "eightsaf",
+  "name": "EightSaf Wallet",
+  "shortDescription": "Non-custodial Chrome extension for Safrochain — send SAF, connect to dApps, and manage your keys locally.",
+  "description": "EightSaf Wallet is a non-custodial browser extension for Safrochain (Cosmos SDK). Private keys and your 24-word recovery phrase are generated and stored only on your device, encrypted with a spending password. The extension does not operate servers, user accounts, or analytics.\n\nUsers can create or restore a wallet, send and receive SAF on Safrochain Testnet, review transaction history, and connect to websites through the EightSaf provider (window.eightsaf) with explicit approval for each connection and signature. A Keplr-compatible API helps Cosmos dApps work without modification.\n\nInstall from the Chrome Web Store via eightsaf.io. A Firefox build is packaged separately for AMO submission. Mainnet support is prepared in the wallet and will align with Safrochain mainnet launch.",
+  "url": "https://eightsaf.io/",
+  "version": "1.6.1",
+  "status": "live",
+  "statusNote": "Available on Chrome Web Store. Safrochain Testnet supported; mainnet when the network launches.",
+  "chains": ["safrochain-testnet", "safrochain-mainnet"],
+  "category": "wallet",
+  "tags": ["wallet", "extension", "browser", "cosmos", "native"],
+  "links": {
+    "website": "https://eightsaf.io/",
+    "docs": "https://docs.safrochain.com",
+    "github": "https://github.com/Eightblockchain/eightsaf",
+    "x": "https://twitter.com/safrochain"
+  },
+  "languages": ["en"],
+  "submittedAt": "2026-04-06",
+  "updatedAt": "2026-06-11"
+}
